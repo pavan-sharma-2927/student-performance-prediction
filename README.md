@@ -1,15 +1,12 @@
-# student-performance-prediction
-# 📊 Student Performance Prediction
+# Student Performance Prediction
 
 A **Machine Learning project built from scratch using NumPy** to predict a student's **Reading Score** based on academic and demographic features.
 
 The project demonstrates the complete ML workflow — from loading and preprocessing raw data to training a Linear Regression model, evaluating predictions, and making predictions for a new student.
 
----
-
 ## Project Objective
 
-The goal of this project is to predict a student's **Reading Score** using:
+The goal of this project is to predict a student's **Reading Score** using: 
 
 * Gender
 * Race/Ethnicity
@@ -19,9 +16,8 @@ The goal of this project is to predict a student's **Reading Score** using:
 * Math Score
 * Writing Score
 
-**Target:** `Reading Score`
+**Target:** Reading Score
 
----
 
 ## Machine Learning Approach
 
@@ -29,19 +25,18 @@ This project implements **Linear Regression from scratch** using NumPy.
 
 Instead of directly using a machine-learning library for training, the model uses matrix operations and the **Normal Equation**:
 
-w = (XᵀX)⁻¹Xᵀy
+**Y=W.X+b** for reading score prediction
+ **w = (XᵀX)⁻¹Xᵀy** for weight calculation
 
 The project also uses **Standardization**:
-
-
-X_scaled = (X - mean) / standard_deviation
+**X_scaled = (X - mean) / standard_deviation**
 
 An intercept term is added to the feature matrix before prediction.
 
 
 ##  Project Workflow
 
-Raw CSV Dataset
+Raw CSV Dataset 
        ↓
 Data Loading
        ↓
