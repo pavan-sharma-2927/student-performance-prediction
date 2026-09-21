@@ -60,23 +60,7 @@ User Input Prediction
 
 
 ## Project Structure
-
-
-Student-Performance-Prediction/
-│
-├── data/
-│   └── StudentsPerformance.csv
-│
-├── source_code/
-│   ├── __init__.py
-│   ├── data_loader.py
-│   ├── preprocessing.py
-│   ├── modal1.py
-│   └── modal1_testing.py
-│
-├── main.py
-├── README.md
-
+![->](image.png)
 ## Technologies Used
 
 * **Python**
@@ -154,13 +138,7 @@ This means the model's predictions are, on average, only a few points away from 
 
 A user can enter information such as:
 
-Gender: Male
-Race: Group A
-Parental Education: Master's degree
-Lunch: Free/reduced
-Test Preparation: None
-Math Score: 50
-Writing Score: 50
+![](output.png)
 
 The system encodes the input, applies the same scaling used during training, and predicts the student's **Reading Score**.
 
