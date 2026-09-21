@@ -60,12 +60,9 @@ User Input Prediction<br>
 
 
 ## Project Structure
-<<<<<<< HEAD
 ![->](image.png)
-=======
 
 
->>>>>>> 7cd2b5fcbeaf7fd0aae6260cce5ba28066a6575b
 ## Technologies Used
 
 * **Python**
@@ -143,11 +140,8 @@ This means the model's predictions are, on average, only a few points away from 
 
 A user can enter information such as:
 
-<<<<<<< HEAD
 ![](output.png)
 
-=======
->>>>>>> 7cd2b5fcbeaf7fd0aae6260cce5ba28066a6575b
 The system encodes the input, applies the same scaling used during training, and predicts the student's **Reading Score**.
 
 
