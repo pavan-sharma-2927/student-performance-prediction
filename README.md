@@ -36,31 +36,36 @@ An intercept term is added to the feature matrix before prediction.
 
 ##  Project Workflow
 
-Raw CSV Dataset 
+Raw CSV Dataset <br>
+       ↓<br>
+Data Loading<br>
        ↓
-Data Loading
-       ↓
-Data Cleaning & Encoding
-       ↓
-One-Hot Encoding
-       ↓
-Feature Matrix Creation
-       ↓
-Train/Test Split
-       ↓
-Feature Scaling
-       ↓
-Linear Regression
-       ↓
-Prediction
-       ↓
-Model Evaluation
-       ↓
-User Input Prediction
+Data Cleaning & Encoding<br>
+       ↓<br>
+One-Hot Encoding<br>
+       ↓<br>
+Feature Matrix Creation<br>
+       ↓<br>
+Train/Test Split<br>
+       ↓<br>
+Feature Scaling<br>
+       ↓<br>
+Linear Regression<br>
+       ↓<br>
+Prediction<br>
+       ↓<br>
+Model Evaluation<br>
+       ↓<br>
+User Input Prediction<br>
 
 
 ## Project Structure
+<<<<<<< HEAD
 ![->](image.png)
+=======
+
+
+>>>>>>> 7cd2b5fcbeaf7fd0aae6260cce5ba28066a6575b
 ## Technologies Used
 
 * **Python**
@@ -81,13 +86,13 @@ Categorical variables are converted into numerical form using:
 
 For example:
 
-Race/Ethnicity
+Race/Ethnicity<br>
 
-Group A → [1,0,0,0,0]
-Group B → [0,1,0,0,0]
-Group C → [0,0,1,0,0]
-Group D → [0,0,0,1,0]
-Group E → [0,0,0,0,1]
+Group A → [1,0,0,0,0] <br>
+Group B → [0,1,0,0,0]<br>
+Group C → [0,0,1,0,0]<br>
+Group D → [0,0,0,1,0]<br>
+Group E → [0,0,0,0,1]<br>
 
 ### Feature Scaling
 
@@ -112,9 +117,9 @@ The model is evaluated using:
 On the test set, the model achieved approximately:
 
 
-MAE  : 3.13
-MSE  : 15.21
-RMSE : 3.90
+MAE  : 3.13 <br>
+MSE  : 15.21<br>
+RMSE : 3.90<br>
 
 This means the model's predictions are, on average, only a few points away from the actual reading scores on this test split.
 
@@ -138,8 +143,11 @@ This means the model's predictions are, on average, only a few points away from 
 
 A user can enter information such as:
 
+<<<<<<< HEAD
 ![](output.png)
 
+=======
+>>>>>>> 7cd2b5fcbeaf7fd0aae6260cce5ba28066a6575b
 The system encodes the input, applies the same scaling used during training, and predicts the student's **Reading Score**.
 
 
